@@ -2,16 +2,16 @@
 
 A dark, playful, single-page portfolio for **Lakshmi Saranya Nunna** — Java full-stack & AI engineer — with a 3D ghost that reads the page along with you and a RAG-powered chatbot that answers recruiters' questions.
 
-**Live:** _coming soon on Vercel_
+**Live:**
 
 ---
 
 ## What makes it fun
 
-- **🎨 Scroll-driven animated backdrop** — a pink→purple gradient grid (HTML canvas) that rotates 90° per section as you scroll, settling perfectly on section boundaries.
-- **🔌 Circuit rail** — a PCB-style copper trace (SVG) that zig-zags down the page between section headings. An electron pulse rides the trace with a spring physics model, and vias light up as you pass them.
-- **👻 3D ghost companion** — built procedurally with **three.js**: a sheet-ghost with a rippling hem that floats across the page as you scroll, parking beside each section like it's reading with you. Its face is drawn live on a canvas texture, so its **expression morphs per section** — impressed at Experience, delighted at Projects, squinting in concentration at Skills, and winking + waving at Contact. It blinks, its eyes saccade like it's reading, it phases out ghost-style when crossing over text, and it pirouettes when it reaches Projects and Contact.
-- **💬 RAG chatbot ("Boo")** — click the ghost and chat with the portfolio. A retrieval-augmented pipeline grounds a Groq-hosted LLM in a structured knowledge base about Saranya, so answers stay factual: experience, projects, skills, education, availability. Off-topic questions are politely declined; unknowns point to email instead of hallucinating.
+- **Scroll-driven animated backdrop** — a pink→purple gradient grid (HTML canvas) that rotates 90° per section as you scroll, settling perfectly on section boundaries.
+- **Circuit rail** — a PCB-style copper trace (SVG) that zig-zags down the page between section headings. An electron pulse rides the trace with a spring physics model, and vias light up as you pass them.
+- **3D ghost companion** — built procedurally with **three.js**: a sheet-ghost with a rippling hem that floats across the page as you scroll, parking beside each section like it's reading with you. Its face is drawn live on a canvas texture, so its **expression morphs per section** — impressed at Experience, delighted at Projects, squinting in concentration at Skills, and winking + waving at Contact. It blinks, its eyes saccade like it's reading, it phases out ghost-style when crossing over text, and it pirouettes when it reaches Projects and Contact.
+- **💬 RAG chatbot ("Boo")** — click the ghost and chat with the portfolio. A retrieval-augmented pipeline grounds a Groq-hosted LLM in a structured knowledge base about Saranya, so answers stay factual: experience, projects, skills, education, availability. Off-topic questions are politely declined; unknowns point to email instead of hallucinating. **still working on it**
 
 ## Tech stack
 
@@ -75,4 +75,4 @@ lib/rag.ts            # lightweight TF-IDF retrieval
 
 ## Contact
 
-**Saranya Nunna** · [nsara014@ucr.edu](mailto:nsara014@ucr.edu) · Bhubaneshwar, India · open to relocating globally 🌍
+**Saranya Nunna** · [nsara014@ucr.edu](mailto:nsara014@ucr.edu) 
