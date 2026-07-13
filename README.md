@@ -2,7 +2,7 @@
 
 A dark, playful, single-page portfolio for **Lakshmi Saranya Nunna** — Java full-stack & AI engineer — with a 3D ghost that reads the page along with you and a RAG-powered chatbot that answers recruiters' questions.
 
-**Live:**
+**Live:** https://portfolio-fnu1.vercel.app/
 
 ---
 
